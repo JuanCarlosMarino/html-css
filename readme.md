@@ -16,3 +16,4 @@ Hola mi nombre es *Juan Mariño* y soy **Trainer**
 
 En este repositorio encontraremos:
 - reto_1
+- reto_2
