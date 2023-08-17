@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/send" target="_blank" enctype="multipart/form-data">
+        <fieldset>
+            Ingrese el nombre:
+            <input type="text" name="name" placeholder="Ej: Juan Perez">
+            Ingrese la fecha de nacimiento:
+            <input type="date" name="birth">
+            Ingrese el correo:
+            <input type="email" name="email">
+        </fieldset>
+
+        <!--label-->
+        <label for="password">Ingrese una contraseña:</label>
+        <input type="password" name="password" id="password">
+        
+        Ingrese su biografia: <textarea name="bio" cols="100" rows="5"></textarea>
+
+        <fieldset>
+            <legend>Genero</legend>
+            <input type="radio" value="M" name="genero">M
+            <input type="radio" value="F" name="genero">F
+            <input type="radio" value="Otro" name="genero" checked>Otro
+        </fieldset>
+
+        
+        Habilidades: <input type="checkbox" value="english" name="skill" checked>Ingles<input type="checkbox" value="python" name="skill">Python
+        Seleccione la opción:
+        <select name="opcion" >
+            <option value="op1">opcion 1</option>
+            <option value="op2">opcion 2</option>
+            <option value="op3" selected>opcion 3</option>
+            <option value="op4">opcion 4</option>
+        </select>
+        opciones: <input type="text" list="items" name="opciondatalist">
+        <datalist id="items">
+            <option value="op1">opcion 1</option>
+            <option value="op2">opcion 2</option>
+            <option value="op3">opcion 3</option>
+            <option value="op4">opcion 4</option>
+        </datalist>
+        <input type="submit" value="Enviar">
+        archivo: <input type="file">
+    </form>
+</body>
+</html>
