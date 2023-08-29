@@ -1,0 +1,13 @@
+@media (max-height: 700px){
+    div{
+        background: red;
+        
+    }
+}
+
+@media (min-height: 700px){
+    div{
+        background: blue;
+        display: inline;
+    }
+}
